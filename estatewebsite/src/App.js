@@ -1,10 +1,10 @@
-
+import Header from "./component/header/Header"
 
 
 function App() {
   return (
     <div className="App">
-      <p>arpita</p>
+      <Header/>
     </div>
   );
 }
