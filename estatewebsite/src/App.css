@@ -1,10 +1,12 @@
 .App{
-    height: 10000px;
+    /* height: 10000px; */
     background-color: black;
 }
 .main{
     width: 60%;
-    margin: 40px auto;
+    margin:  auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 .home_img{
     width: 100%;

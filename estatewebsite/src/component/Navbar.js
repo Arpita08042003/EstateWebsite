@@ -7,7 +7,7 @@ import "./Navbar.css"
 function Navbar() {
     return(
         <div class="sticky-top"  >
-        <nav class="navbar navbar-expand-lg bg-light ">
+        <nav class="navbar navbar-expand-lg   ">
         <div class="container-fluid col-8  " >
           <a class="navbar-brand " style={{color:colors.first}} href="#">Navbar</a>
           <div class="float-end">
