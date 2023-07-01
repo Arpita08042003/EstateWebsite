@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/EstateWebsite/static/css/main.bdb619cc.css",
+    "main.css": "/EstateWebsite/static/css/main.5afb3d36.css",
     "main.js": "/EstateWebsite/static/js/main.629acf5d.js",
     "index.html": "/EstateWebsite/index.html",
-    "main.bdb619cc.css.map": "/EstateWebsite/static/css/main.bdb619cc.css.map",
+    "main.5afb3d36.css.map": "/EstateWebsite/static/css/main.5afb3d36.css.map",
     "main.629acf5d.js.map": "/EstateWebsite/static/js/main.629acf5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdb619cc.css",
+    "static/css/main.5afb3d36.css",
     "static/js/main.629acf5d.js"
   ]
 }
