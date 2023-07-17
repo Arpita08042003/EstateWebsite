@@ -3,7 +3,7 @@ import "./Ourvalue.css"
 
 function OurValue(){
     return(
-       <div class="main ourvalue">
+       <div class="main ourvalue" id="Ourvalue">
          <div class="row g-4">
          <div class="col-lg-6 "  >
         <img src="https://real-estate-web.pages.dev/value.png" alt="home" class="home_img"/>

@@ -2,7 +2,7 @@ import "./Contact.css"
 
 function Contact(){
     return(
-        <div class="contact"  >
+        <div class="contact" id="Contact Us" >
             <div class="main">
                <h2>Contact Us</h2>
                <p>We always ready to help by providijng the best services for you. We beleive a good blace to live can make your life better</p>

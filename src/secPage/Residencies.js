@@ -3,7 +3,7 @@ import "./Residencies.css"
 
 function Residencies(){
     return(
-        <div class="secMain">
+        <div class="secMain" id="Residencies">
             <div class="main">
             <h2>Popular Residencies</h2>
                 <p class="secMainp">Best Choices</p>

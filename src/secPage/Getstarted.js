@@ -2,7 +2,7 @@ import "./Getstarted.css"
 
 function Getstarted(){
     return(
-        <div class="getstarted">
+        <div class="getstarted" id="Get Started">
            <div class="main">
                <h2>Get started with Homyz</h2>
                <p>Subscribe and find super attractive price quotes from us.

@@ -1,12 +1,27 @@
 
+import { BrowserRouter } from "react-router-dom";
 import { colors } from "../Colour";
 import "./Navbar.css"
-// navabar
-
+ 
+import { HashLink as Link } from "react-router-hash-link";
+// import 'bootstrap/dist/css/bootstrap.ese.min.js'
+// import { Toast } from '/node_modules/bootstrap/dist/js/bootstrap.esm.min.js'
 
 function Navbar() {
+
+  
+
+  // const navLinks = document.querySelectorAll('.nav-item')
+  // const menuToggle = document.getElementById('navbarSupportedContent')
+  // const bsCollapse = new Toast.Collapse(menuToggle, {toggle:false})
+  // navLinks.forEach((l) => {
+  //     l.addEventListener('click', () => { bsCollapse.toggle() })
+  // })
+
     return(
-        <div class="sticky-top"  >
+       <BrowserRouter>
+        
+        <div class="sticky-top" id="navbar_main" >
         <nav class="navbar navbar-expand-lg   ">
         <div class="container-fluid col-8  " >
           <a class="navbar-brand " style={{color:colors.first}} href="#">Navbar</a>
@@ -18,17 +33,17 @@ function Navbar() {
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-end">
                  
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Residencies</a>
+              <li class="nav-item"  >
+                <a class="nav-link active" aria-current="page"  > <Link to ="#Residencies" smooth >Residencies</Link></a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link active" aria-current="page"  ><Link to ="#Ourvalue">Our Value</Link></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Our Value</a>
+                <a class="nav-link active" aria-current="page"  ><Link to="#Contact Us">Contact Us</Link></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Get Started</a>
+                <a class="nav-link active" aria-current="page" ><Link to="#Get Started">Get Started</Link></a>
               </li>
                
             </ul>
@@ -38,6 +53,7 @@ function Navbar() {
       </nav>
         
         </div>
+        </BrowserRouter>
     );
 }
 
