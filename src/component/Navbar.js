@@ -4,19 +4,11 @@ import { colors } from "../Colour";
 import "./Navbar.css"
  
 import { HashLink as Link } from "react-router-hash-link";
-// import 'bootstrap/dist/css/bootstrap.ese.min.js'
-// import { Toast } from '/node_modules/bootstrap/dist/js/bootstrap.esm.min.js'
-
+ 
 function Navbar() {
 
   
-
-  // const navLinks = document.querySelectorAll('.nav-item')
-  // const menuToggle = document.getElementById('navbarSupportedContent')
-  // const bsCollapse = new Toast.Collapse(menuToggle, {toggle:false})
-  // navLinks.forEach((l) => {
-  //     l.addEventListener('click', () => { bsCollapse.toggle() })
-  // })
+ 
 
     return(
        <BrowserRouter>
