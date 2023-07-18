@@ -1,11 +1,14 @@
 import Carddeck from "../component/Carddeck"
 import "./Residencies.css"
+import {  useScroll, useTransform} from 'framer-motion'
 
 function Residencies(){
+    
+
     return(
         <div class="secMain" id="Residencies">
             <div class="main">
-            <h2>Popular Residencies</h2>
+            <h2  >Popular Residencies</h2>
                 <p class="secMainp">Best Choices</p>
                 <p class="secMainp">make your Best Choice</p>
                  <div class="row   ">
